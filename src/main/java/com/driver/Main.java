@@ -11,27 +11,21 @@ public class Main {
         System.out.println(ans +" "+ ans1 + " "+ ans2);
 
     }
-}
-    class Product{
+    public static class Product {
 
-    public int product(int x, int y) {
+        public int product(int x, int y) {
 
-        int sum = x * y;
+            return x * y;
+        }
 
-        return sum;
-    }
+        public int product(int x, int y, int z) {
 
-    public int product(int x, int y, int z) {
+            return x * y * z;
+        }
 
-        int sum = x * y * z;
+        public double product(double x, double y) {
 
-        return sum;
-    }
-
-    public double product(double x, double y) {
-
-        double sum = x * y;
-
-        return sum;
+            return x * y;
+        }
     }
 }
